@@ -1,0 +1,6 @@
+# Archivos compilados por Sass
+css/main.css
+css/*.map
+
+# Dependencias de Node
+node_modules/
