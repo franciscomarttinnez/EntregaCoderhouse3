@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as *;
+
+.btn-hover {
+  &:hover {
+    transform: scale(1.05);
+    transition: transform $transition;
+  }
+}
+
+.btn-custom {
+  &:hover {
+    background-color: darken($color-primary, 10%);
+    color: $color-light;
+  }
+}

@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+
+.bg-custom {
+  background-color: $color-primary !important;
+}
+
+.logoname {
+  font-size: 2rem;
+  color: $color-light;
+} 

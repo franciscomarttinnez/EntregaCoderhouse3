@@ -1,0 +1,18 @@
+@use "abstracts/variables";
+@use "abstracts/mixins";
+
+@use "base/reset";
+@use "base/global";
+
+@use "layout/navbar";
+@use "layout/footer";
+
+@use "components/cards";
+@use "components/buttons";
+
+@use "pages/home";
+@use "pages/ps5";
+@use "pages/juegos";
+@use "pages/accesorios";
+@use "pages/contacto";
+@use "pages/comprar";

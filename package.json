@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "sass --watch scss:css --embed-source-map",
+    "build": "sass scss:css --style=compressed --no-source-map"
+  }
+}
+

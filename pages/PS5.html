@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../assets/PSLOGO.png" type="image/x-icon">
+    <title>PS5-PlayStation</title>
+</head>
+<body> <!--fondo de video, para mas calidad-->
+    <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
+    <source src="../assets/videofondops5.mp4" type="video/mp4">
+    </video>
+    <header class="sticky-top"> <!-- header y navbar (lo repito en todos los html sacando el link de la pestaña en la que se esta) -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+        <img src="../assets/PSLOGO.png" alt="PSLogo" height="40" class="me-2">
+        <span class="logoname fw-bold">PlayStation</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link text-white fw-bold" href="./Juegos.html"  rel="noopener noreferrer">Juegos</a></li>
+            <li class="nav-item"><a class="nav-link text-white fw-bold" href="./Accesorios.html"  rel="noopener noreferrer">Accesorios</a></li>
+            <li class="nav-item"><a class="nav-link text-white fw-bold" href="./Contacto.html"  rel="noopener noreferrer">Contacto</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    </header>
+        
+    <main class="container my-5 text-light"> <!-- aca va el contenido de la pagina -->
+        <img src="../assets/logops5.png" class="d-block mx-auto" alt="centrado" style="width: 20rem; margin: 5rem 0rem 0rem 0rem;">
+            <h2 class="text-center" style="margin-bottom: 0%;">Juegos Increibles</h2>
+            <h2 class="text-center" style="margin-bottom: 2rem;">Entretenimiento sin fin</h2>
+    <div class="text-center mb-5">
+        <a href="#exploraPS5" class="btn btn-primary btn-lg card-hover" style="margin-bottom: 30rem;">
+            Ver la PS5
+        </a>
+    </div>
+    <section class="d-flex justify-content-center mb-5">
+    <div id="exploraPS5" class="card bg-dark bg-opacity-75 shadow-lg text-white card-hover" style="max-width: 50rem; border-color:#0052CC; border-width: 5px;">
+    <img src="../assets/playstations5.png" class="card-img-top img-fluid" alt="PS5 Consola">
+    <div class="card-body text-center">
+        
+        <h5 class="card-title">Explorá la PS5</h5>
+        <p class="card-text">Conocé todos los detalles, juegos y accesorios de la nueva generación.</p>
+        <a href="./ComprarPS5.html" target="_blank" class="btn btn-outline-light">Comprar ahora</a>
+    </div>
+    </div>
+</section>
+    <section class="row g-4 mb-5 text-center">
+    <div class="col-md-4 card-hover ">
+        <div class="card bg-dark bg-opacity-75 shadow-sm h-100 p-3 text-white" style="border-color:#0052CC; border-width: 5px;">
+        <h5 class="card-title">Rendimiento Superior</h5>
+        <p class="card-text">Procesador y GPU de última generación que permiten gráficos sorprendentes y tiempos de carga ultrarrápidos.</p>
+        </div>
+    </div>
+    <div class="col-md-4 card-hover">
+        <div class="card bg-dark bg-opacity-75 shadow-sm h-100 p-3 text-white" style="border-color:#0052CC; border-width: 5px;">
+        <h5 class="card-title">Experiencia Inmersiva</h5>
+        <p class="card-text">Sonido 3D y tecnología háptica que hacen que cada juego se sienta más real.</p>
+        </div>
+    </div>
+    <div class="col-md-4 card-hover">
+        <div class="card bg-dark bg-opacity-75 shadow-sm h-100 p-3 text-white" style="border-color:#0052CC; border-width: 5px;">
+        <h5 class="card-title">Diseño Moderno</h5>
+        <p class="card-text">Una consola elegante que se integra perfectamente a tu sala de entretenimiento.</p>
+        </div>
+    </div>
+    </section>
+    <section id="productos" class="row g-4 mb-5"> <!-- section de productos destacados -->
+    <h2 class="text-center mb-4 text-white">Destacados</h2>
+    <div class="col-md-4 card-hover"> 
+        <div class="card bg-dark bg-opacity-75 h-100 shadow-sm text-white" style="border-color:#0052CC; border-width: 5px;">
+        <img src="../assets/joystick.png" class="card-img-top img-fluid" alt="DualSense Controller" style="width: 20rem; margin: 3rem 0rem 3rem 3rem;">
+        <div class="card-body">
+            <h5 class="card-title">DualSense Controller</h5>
+            <p class="card-text">Control inalámbrico con retroalimentación háptica y gatillos adaptativos.</p>
+            <a href="./Accesorios.html" class="btn btn-outline-light">Ver más</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4 card-hover">
+        <div class="card bg-dark bg-opacity-75 h-100 shadow-sm text-white" style="border-color:#0052CC; border-width: 5px;">
+        <img src="../assets/ps5-spiderman.png" class="card-img-top img-fluid" alt="Spider-Man PS5">
+        <div class="card-body">
+            <h5 class="card-title">Spider-Man: Miles Morales</h5>
+            <p class="card-text">Juego de acción y aventuras con gráficos de nueva generación.</p>
+            <a href="./Juegos.html" class="btn btn-outline-light">Ver más</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4 card-hover">
+        <div class="card bg-dark bg-opacity-75 h-100 shadow-sm text-white" style="border-color:#0052CC; border-width: 5px;">
+        <img src="../assets/ps5-ratchet.png" class="card-img-top img-fluid" alt="Ratchet & Clank">
+        <div class="card-body">
+            <h5 class="card-title">Ratchet & Clank: Rift Apart</h5>
+            <p class="card-text">Aventura interdimensional con gráficos y velocidad sorprendentes.</p>
+            <a href="./Juegos.html" class="btn btn-outline-light">Ver más</a>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="p-5 rounded text-center bg-dark bg-opacity-75 text-white card-hover"> <!-- section de contacto -->
+    <h2>¿Tenés dudas sobre la PS5?</h2>
+    <p class="mb-3">Contactanos y te ayudamos a elegir la mejor experiencia de juego.</p>
+    <a href="./Contacto.html" class="btn btn-primary">Ir a Contacto</a>
+    </section>
+    </main>
+
+    <footer class="text-white" style="background-color: #0052CC;"> <!-- footer -->
+    <div class="container py-5">
+    <div class="row">
+    <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">PlayStation Store</h5>
+        <p>La mejor tienda de consolas, juegos y accesorios.</p>
+        <img src="../assets/sony.png" alt="SonyLogo" style="width: 5rem;">
+    </div>
+    <div class="col-md-4 mb-4">
+        <h6 class="fw-bold">Links rapidos</h6>
+        <ul class="list-unstyled">
+            <li><a href="/pages/PS5.html" class="text-white text-decoration-underline">PS5</a></li>
+            <li><a href="/pages/Juegos.html" class="text-white text-decoration-underline">Juegos</a></li>
+            <li><a href="/pages/Accesorios.html" class="text-white text-decoration-underline">Accesorios</a></li>
+            <li><a href="/pages/Contacto.html" class="text-white text-decoration-underline">Contacto</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+        <h6 class="fw-bold">Contacto</h6>
+        <p>Email: contacto@psstore.com</p>
+        <p>Tel: +54 9 11 1234-5678</p>
+        </div>
+    </div>
+    
+    <div class="text-center mt-4">
+        <small>&copy; 2025 PlayStation Store. Todos los derechos reservados.</small>
+    </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

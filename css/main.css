@@ -1,0 +1,96 @@
+.bg-custom {
+    background-color: #0052CC !important;
+}
+
+.logo{
+    margin: 1rem;
+    width: 4rem;
+    height: auto;
+}
+
+.h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logoname {
+    font-size: 2rem;
+    color: white;
+}
+
+.card-custom-bg {
+    border-color: #73abff;
+    border-width:5px;
+    border-radius: 10px;
+    background-color: #ffffffe8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-hover {
+    transition: transform 0.3s ease; 
+}
+
+.card-hover:hover {
+    transform: scale(1.05); 
+    z-index: 2;              
+}
+
+.btn-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.btn-custom:hover{
+    background-color: #0e61df;
+    color: white;
+}
+
+
+body {
+    background-image: url('./assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #71a2ec00;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+#video-fondo {
+    top: 0;
+    left: 0;
+    object-fit: cover;   
+    width: 100%;
+    height: 100%;
+    z-index: -1;         
+    position: fixed;    
+}
+
+.bg-contacto{
+    background-color: #0052CC;
+    background-image: url('./assets/cx-persona-hero-16x9-3nov23.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+html {
+    scroll-behavior: smooth;
+}
+#exploraPS5 {
+    scroll-margin-top: 140px;
+}
+
+#vermas {
+    scroll-margin-top: 100px;
+}
+
+#vermasaccesorios {
+    scroll-margin-top: 100px;
+}

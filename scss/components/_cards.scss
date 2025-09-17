@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as *;
+
+.card-custom-bg {
+  border-color: $color-accent;
+  border-width: 5px;
+  border-radius: $radius;
+  background-color: rgba($color-light, 0.91);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-hover {
+  transition: transform $transition;
+  &:hover {
+    transform: scale(1.05);
+    z-index: 2;
+  }
+}
