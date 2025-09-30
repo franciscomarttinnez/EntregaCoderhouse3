@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+
+    <!-- Titulo y descripcion -->
+    <title>Accesorios PlayStation® | Controles, Auriculares y Más</title>
+    <meta name="description" content="Explorá los accesorios oficiales de PlayStation®. DualSense, auriculares Pulse, PlayStation VR2 y más para potenciar tu experiencia de juego.">
+    <meta http-equiv="content-language" content="es-AR">
+    <link rel="canonical" href="https://playstation.example/accesorios/">
+
+    <!-- logo -->
+    <link rel="icon" href="../assets/PSLOGO.png" type="image/png">
+
+    <!-- css y bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/main.css">c
-    <link rel="icon" href="../assets/PSLOGO.png" type="image/x-icon">
-    <title>Accsesorios-PlayStation</title>
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Opegraph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PlayStation">
+    <meta property="og:title" content="Accesorios PlayStation® | Controles, Auriculares y Más">
+    <meta property="og:description" content="Descubrí los accesorios oficiales de PlayStation® para PS5 y PS4: controles, headsets, VR y más.">
+    <meta property="og:url" content="https://playstation.example/accesorios/">
+    <meta property="og:image" content="https://playstation.example/assets/og-accesorios.jpg">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Accesorios PlayStation® | Controles, Auriculares y Más">
+    <meta name="twitter:description" content="DualSense, Pulse 3D, VR2 y más accesorios oficiales para potenciar tu experiencia PlayStation®.">
+    <meta name="twitter:image" content="https://playstation.example/assets/og-accesorios.jpg">
+
+    <!-- datos de los productos -->
+    <script type="application/ld+json">
+    {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"Accesorios PlayStation",
+    "itemListElement":[
+        {
+        "@type":"Product",
+        "position":1,
+        "name":"Control inalámbrico DualSense",
+        "image":"https://playstation.example/assets/dualsense.jpg",
+        "offers":{
+            "@type":"Offer",
+            "priceCurrency":"USD",
+            "price":"69.99",
+            "availability":"https://schema.org/InStock",
+            "url":"https://playstation.example/accesorios/dualsense/"
+        }
+        },
+        {
+        "@type":"Product",
+        "position":2,
+        "name":"Auriculares inalámbricos Pulse 3D",
+        "image":"https://playstation.example/assets/pulse3d.jpg",
+        "offers":{
+            "@type":"Offer",
+            "priceCurrency":"USD",
+            "price":"99.99",
+            "availability":"https://schema.org/InStock",
+            "url":"https://playstation.example/accesorios/pulse3d/"
+        }
+        }
+    ]
+    }
+    </script>
 </head>
+
 <body>
     <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
     <source src="../assets/controlvideo.mp4" type="video/mp4">

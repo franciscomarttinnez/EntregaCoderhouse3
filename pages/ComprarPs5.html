@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+
+    <!-- titulo y descripcion-->
+    <title>Comprar PlayStation® 5 | Precio, Ofertas y Disponibilidad</title>
+    <meta name="description" content="Comprá tu consola PlayStation® 5 con envío rápido y garantía oficial. Revisá precios, disponibilidad y ofertas exclusivas de PS5.">
+
+    <meta http-equiv="content-language" content="es-AR">
+    <link rel="canonical" href="https://playstation.example/comprar-ps5/">
+
+    <!-- logo -->
+    <link rel="icon" href="../assets/PSLOGO.png" type="image/png">
+
+    <!-- css y bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="icon" href="../assets/PSLOGO.png" type="image/x-icon">
-    <title>Comprar-PlayStation</title>
+
+    <!-- Opengraph -->
+    <meta property="og:type" content="product">
+    <meta property="og:site_name" content="PlayStation">
+    <meta property="og:title" content="Comprar PlayStation® 5 | Precio y Ofertas">
+    <meta property="og:description" content="Accedé a las mejores ofertas para comprar tu consola PS5. Garantía oficial y envíos rápidos.">
+    <meta property="og:url" content="https://playstation.example/comprar-ps5/">
+    <meta property="og:image" content="https://playstation.example/assets/ps5-buy-og.jpg">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comprar PlayStation® 5 | Precio y Ofertas">
+    <meta name="twitter:description" content="Ofertas exclusivas para comprar la PS5 con garantía y envíos rápidos.">
+    <meta name="twitter:image" content="https://playstation.example/assets/ps5-buy-og.jpg">
+
+    <!-- datos estructurados-->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "PlayStation 5",
+    "brand": {
+        "@type": "Brand",
+        "name": "Sony PlayStation"
+    },
+    "image": "https://playstation.example/assets/ps5-buy-og.jpg",
+    "description": "La consola PlayStation® 5 ya disponible para comprar con garantía oficial y envíos rápidos.",
+    "sku": "PS5-001",
+    "offers": {
+        "@type": "Offer",
+        "url": "https://playstation.example/comprar-ps5/",
+        "priceCurrency": "USD",
+        "price": "499.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+        "@type": "Organization",
+        "name": "PlayStation Store"
+        }
+    }
+    }
+    </script>
 </head>
+
 <body>
     <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
     <source src="../assets/videofondops5.mp4" type="video/mp4">

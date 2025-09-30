@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="icon" href="../assets/PSLOGO.png" type="image/x-icon">
-    <title>PS5-PlayStation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- titulo y descripcion -->
+<title>PlayStation® 5 | Consola PS5, Características y Novedades</title>
+<meta name="description" content="Descubrí la consola PlayStation® 5: potencia de nueva generación, juegos exclusivos, accesorios y toda la experiencia inmersiva que redefine el gaming.">
+
+<meta http-equiv="content-language" content="es-AR">
+<link rel="canonical" href="https://playstation.example/ps5/">
+
+<!-- logo -->
+<link rel="icon" href="../assets/PSLOGO.png" type="image/png">
+
+<!-- css y bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../css/main.css">
+
+<!-- Opengraph -->
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="PlayStation">
+<meta property="og:title" content="PlayStation® 5 | Consola PS5, Características y Novedades">
+<meta property="og:description" content="Explorá la consola PlayStation® 5 y viví el gaming de nueva generación.">
+<meta property="og:url" content="https://playstation.example/ps5/">
+<meta property="og:image" content="https://playstation.example/assets/ps5-og.jpg">
+<meta property="og:locale" content="es_AR">
+
+<!-- twitter cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PlayStation® 5 | Consola PS5, Características y Novedades">
+<meta name="twitter:description" content="Descubrí las innovaciones de la consola PS5: velocidad, gráficos y juegos exclusivos.">
+<meta name="twitter:image" content="https://playstation.example/assets/ps5-og.jpg">
+
+    <!-- datos estructurados -->
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "PlayStation 5",
+    "brand": {
+        "@type": "Brand",
+        "name": "Sony PlayStation"
+    },
+    "image": "https://playstation.example/assets/ps5-og.jpg",
+    "description": "La consola PlayStation® 5 ofrece velocidad de carga ultrarrápida, gráficos inmersivos y una experiencia de juego de nueva generación.",
+    "sku": "PS5-001",
+    "offers": {
+        "@type": "Offer",
+        "priceCurrency": "USD",
+        "price": "499.99",
+        "availability": "https://schema.org/InStock",
+        "url": "https://playstation.example/ps5/"
+    }
+    }
+    </script>
 </head>
+
 <body> <!--fondo de video, para mas calidad-->
     <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
     <source src="../assets/videofondops5.mp4" type="video/mp4">

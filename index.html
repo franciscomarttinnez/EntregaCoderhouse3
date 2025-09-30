@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="./assets/PSLOGO.png" type="image/x-icon">
-    <title>PlayStation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- titulo -->
+  <title>PlayStation® | PS5, Juegos, Accesorios y Novedades</title>
+  <meta name="description" content="Explorá el universo PlayStation®: PS5, juegos exclusivos, accesorios y las últimas novedades. Lanzamientos, ofertas y comunidad gamer en un solo lugar.">
+
+  <meta http-equiv="content-language" content="es-AR">
+  <link rel="canonical" href="https://playstation.example/">
+
+  <!-- logo -->
+  <link rel="icon" href="./assets/PSLOGO.png" type="image/png">
+
+  <!-- link al css y bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- opngraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PlayStation">
+  <meta property="og:title" content="PlayStation® | PS5, Juegos, Accesorios y Novedades">
+  <meta property="og:description" content="Todo PlayStation® en un solo lugar: PS5, lanzamientos, ofertas y accesorios.">
+  <meta property="og:url" content="https://playstation.example/">
+  <meta property="og:image" content="https://playstation.example/assets/og-home.jpg">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- twitter cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PlayStation® | PS5, Juegos, Accesorios y Novedades">
+  <meta name="twitter:description" content="Novedades y lanzamientos de PlayStation®: PS5, juegos y accesorios.">
+  <meta name="twitter:image" content="https://playstation.example/assets/og-home.jpg">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"PlayStation",
+    "url":"https://playstation.example/",
+    "inLanguage":"es-AR",
+    "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://playstation.example/buscar?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"PlayStation",
+    "url":"https://playstation.example/",
+    "logo":{
+    "@type":"ImageObject",
+    "url":"https://playstation.example/assets/PSLOGO.png"
+    },
+    "sameAs":[
+        "https://www.facebook.com/PlayStation",
+        "https://www.instagram.com/playstation",
+        "https://twitter.com/PlayStation",
+        "https://www.youtube.com/PlayStation"
+    ]
+    }
+    </script>
+    <link rel="preload" as="image" href="/assets/hero-home.jpg">
+    <meta name="theme-color" content="#003791">
 </head>
+
 <body > <!--fondo de video, para mas calidad-->
     <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
     <source src="./assets/PS4 Live Wallpaper - background loop.mp4" type="video/mp4">

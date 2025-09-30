@@ -3,12 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">  
+
+    <!-- titulo -->
+    <title>Juegos PlayStation® | Exclusivos, Novedades y Lanzamientos</title>
+    <meta name="description" content="Explorá los mejores juegos de PlayStation®. Exclusivos de PS5 y PS4, próximos lanzamientos, tráilers y novedades de tus franquicias favoritas.">
+
+    <meta http-equiv="content-language" content="es-AR">
+    <link rel="canonical" href="https://playstation.example/juegos/">
+
+    <!-- logo -->
+    <link rel="icon" href="../assets/PSLOGO.png" type="image/png">
+
+    <!-- css y bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="icon" href="../assets/PSLOGO.png" type="image/x-icon">
-    <title>Juegos-PlayStation</title>
+
+    <!-- Opengrap -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PlayStation">
+    <meta property="og:title" content="Juegos PlayStation® | Exclusivos, Novedades y Lanzamientos">
+    <meta property="og:description" content="Descubrí el catálogo de juegos de PlayStation®. Próximos lanzamientos, exclusivos y clásicos.">
+    <meta property="og:url" content="https://playstation.example/juegos/">
+    <meta property="og:image" content="https://playstation.example/assets/og-juegos.jpg">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Juegos PlayStation® | Exclusivos, Novedades y Lanzamientos">
+    <meta name="twitter:description" content="Catálogo oficial de juegos PlayStation®. Novedades, tráilers y próximos estrenos.">
+    <meta name="twitter:image" content="https://playstation.example/assets/og-juegos.jpg">
+
+    <!-- Datos estructurados (lista de VideoGames) -->
+    <script type="application/ld+json">
+    {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"Juegos PlayStation",
+    "itemListElement":[
+        {
+        "@type":"VideoGame",
+        "position":1,
+        "name":"Spider-Man 2",
+        "image":"https://playstation.example/assets/spiderman2.jpg",
+        "url":"https://playstation.example/juegos/spiderman-2/",
+        "gamePlatform":["PlayStation 5"],
+        "author":{"@type":"Organization","name":"Insomniac Games"},
+        "publisher":{"@type":"Organization","name":"Sony Interactive Entertainment"}
+        },
+        {
+        "@type":"VideoGame",
+        "position":2,
+        "name":"The Last of Us Part I",
+        "image":"https://playstation.example/assets/tlou1.jpg",
+        "url":"https://playstation.example/juegos/the-last-of-us-part-1/",
+        "gamePlatform":["PlayStation 5"],
+        "author":{"@type":"Organization","name":"Naughty Dog"},
+        "publisher":{"@type":"Organization","name":"Sony Interactive Entertainment"}
+        }
+    ]
+    }
+    </script>
 </head>
+
 <body>
     <video autoplay muted loop id="video-fondo" class="position-fixed w-100 h-100">
     <source src="../assets/0902.mp4" type="video/mp4">
